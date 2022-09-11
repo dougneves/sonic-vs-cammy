@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/plantao.mp3-d1f446cfbe3cd676cf26cc31ba82215e.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/plantao.mp3"
+dest_files=[ "res://.import/plantao.mp3-d1f446cfbe3cd676cf26cc31ba82215e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

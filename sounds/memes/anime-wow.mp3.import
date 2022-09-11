@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/anime-wow.mp3-792ed44b1c4d72f6cc4ba0ecb092f78f.mp3str"
+
+[deps]
+
+source_file="res://sounds/memes/anime-wow.mp3"
+dest_files=[ "res://.import/anime-wow.mp3-792ed44b1c4d72f6cc4ba0ecb092f78f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

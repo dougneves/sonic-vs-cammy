@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/fail.mp3-b58c38655d3c728484cf5084ae24f0d6.mp3str"
+
+[deps]
+
+source_file="res://sounds/memes/fail.mp3"
+dest_files=[ "res://.import/fail.mp3-b58c38655d3c728484cf5084ae24f0d6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

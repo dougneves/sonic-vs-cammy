@@ -1,8 +1,8 @@
 [gd_scene load_steps=36 format=2]
 
-[ext_resource path="res://cammy.png" type="Texture" id=1]
+[ext_resource path="res://sprites/cammy.png" type="Texture" id=1]
 [ext_resource path="res://Boss.gd" type="Script" id=2]
-[ext_resource path="res://bullet-go.wav" type="AudioStream" id=3]
+[ext_resource path="res://sounds/bullet-go.wav" type="AudioStream" id=3]
 
 [sub_resource type="ShaderMaterial" id=20]
 

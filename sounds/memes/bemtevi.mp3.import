@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bemtevi.mp3-ce9fcd5617882eb248aeaf083bae6ab9.mp3str"
+
+[deps]
+
+source_file="res://sounds/memes/bemtevi.mp3"
+dest_files=[ "res://.import/bemtevi.mp3-ce9fcd5617882eb248aeaf083bae6ab9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

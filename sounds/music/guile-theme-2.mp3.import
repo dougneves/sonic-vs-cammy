@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/guile-theme-2.mp3-3d40cdc718ab57153ebb3d0bae626138.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/guile-theme-2.mp3"
+dest_files=[ "res://.import/guile-theme-2.mp3-3d40cdc718ab57153ebb3d0bae626138.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

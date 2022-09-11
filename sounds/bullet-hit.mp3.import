@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/bullet-hit.mp3-24b225e1e1632446a3238d5b61e49235.mp3str"
+
+[deps]
+
+source_file="res://sounds/bullet-hit.mp3"
+dest_files=[ "res://.import/bullet-hit.mp3-24b225e1e1632446a3238d5b61e49235.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

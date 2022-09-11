@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/roblox-oof.mp3-83a9ecb1ae35715a1ac2f58b8f449783.mp3str"
+
+[deps]
+
+source_file="res://sounds/memes/roblox-oof.mp3"
+dest_files=[ "res://.import/roblox-oof.mp3-83a9ecb1ae35715a1ac2f58b8f449783.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

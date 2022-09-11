@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/miseravel.mp3-433df248dc46afeeed0dfcd4b019a5a4.mp3str"
+
+[deps]
+
+source_file="res://sounds/memes/miseravel.mp3"
+dest_files=[ "res://.import/miseravel.mp3-433df248dc46afeeed0dfcd4b019a5a4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

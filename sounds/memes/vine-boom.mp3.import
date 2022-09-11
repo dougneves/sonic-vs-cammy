@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/vine-boom.mp3-58905ace2d2c0b347092fa9d042add60.mp3str"
+
+[deps]
+
+source_file="res://sounds/memes/vine-boom.mp3"
+dest_files=[ "res://.import/vine-boom.mp3-58905ace2d2c0b347092fa9d042add60.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

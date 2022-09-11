@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/megalovania.mp3-a226bdde710a725d362f4128ae67231b.mp3str"
+
+[deps]
+
+source_file="res://sounds/music/megalovania.mp3"
+dest_files=[ "res://.import/megalovania.mp3-a226bdde710a725d362f4128ae67231b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

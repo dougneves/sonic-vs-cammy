@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/cj-here-we-go-again.mp3-d6544020b9069015d0f3ac8e49ce614b.mp3str"
+
+[deps]
+
+source_file="res://sounds/memes/cj-here-we-go-again.mp3"
+dest_files=[ "res://.import/cj-here-we-go-again.mp3-d6544020b9069015d0f3ac8e49ce614b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

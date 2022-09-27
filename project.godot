@@ -8,10 +8,26 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Area2D",
+"class": "HitBox",
+"language": "GDScript",
+"path": "res://scripts/HitBox.gd"
+}, {
+"base": "Area2D",
+"class": "HurtBox",
+"language": "GDScript",
+"path": "res://scripts/HurtBox.gd"
+} ]
+_global_script_class_icons={
+"HitBox": "",
+"HurtBox": ""
+}
+
 [application]
 
 config/name="Sonic vs Cammy"
-run/main_scene="res://Level.tscn"
+run/main_scene="res://scenes/Level.tscn"
 config/icon="res://icon.png"
 
 [display]

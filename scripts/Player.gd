@@ -1,6 +1,6 @@
 extends KinematicBody2D
 
-const BulletScene = preload("res://Bullet.tscn");
+const BulletScene = preload("res://scenes/Bullet.tscn");
 
 const UP_DIRECTION = Vector2.UP;
 
@@ -19,7 +19,8 @@ onready var _animation_player = $AnimatedSprite
 func _physics_process(delta):
 	var horizontal_direction = (Input.get_action_strength("move_right") - Input.get_action_strength("move_left"))
 	
-	_velocity.x = horizontal_direction * speed
+	if (!is_zero_approx(horizontal_direction)):
+		_velocity.x = horizontal_direction * speed
 	_velocity.y += gravity*delta
 		
 	var is_falling = _velocity.y > 0 && !is_on_floor()
@@ -61,10 +62,13 @@ func _physics_process(delta):
 		
 	if !is_on_floor():
 		_animation_player.play("jump")
-	if is_running:
+	elif is_running:
 		_animation_player.play("walk")
-	if is_idling:
+	elif is_idling:
 		_animation_player.play("idle")
 	
-func _on_Area2D_area_entered(area):
-	print(area)
+func area_entered(hitbox: HitBox):
+	print(hitbox.id)
+	_animation_player.play("hurt")
+	$HurtSound.play(0.4)
+	_velocity = move_and_slide(Vector2(-1000,-1500))

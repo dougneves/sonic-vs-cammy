@@ -11,6 +11,6 @@ func _ready():
 func _physics_process(delta):
 	position += direction * speed * delta
 
-
-func _on_hitbox_body_entered(body):
+func area_entered(hitbox: HitBox):
+	print(hitbox.id)
 	queue_free()

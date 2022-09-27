@@ -11,5 +11,5 @@ dest_files=[ "res://.import/roblox-oof.mp3-83a9ecb1ae35715a1ac2f58b8f449783.mp3s
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

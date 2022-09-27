@@ -1,8 +1,8 @@
 extends Node2D
 
-const CavaloAttackScene = preload("res://CavaloAttack.tscn");
+const CavaloAttackScene = preload("res://scenes/CavaloAttack.tscn");
 
-export var life = 5000
+export var life: int = 5000
 
 var status = 0
 
@@ -18,14 +18,12 @@ func _process(delta):
 	if(status == 1):
 		$AnimatedSprite.play("death")
 
-func _on_hitbox_area_entered(area):
-	area.get_parent().queue_free()
+func area_entered(hitbox: HitBox):
 	$BulletHitSound.play()
 	if($DamageTimer.is_stopped()):
-		life -= 50
+		life -= hitbox.damage
 		$DamageTimer.start()
 		$AnimatedSprite.modulate = Color(10,10,10)
-
 
 func _on_AnimatedSprite_animation_finished():
 	print($AnimatedSprite.animation)

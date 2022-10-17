@@ -19,14 +19,13 @@ func _process(delta):
 		$AnimatedSprite.play("death")
 
 func area_entered(hitbox: HitBox):
-	$BulletHitSound.play()
-	if($DamageTimer.is_stopped()):
+	if(hitbox.id == "bullet" && $DamageTimer.is_stopped()):
+		$BulletHitSound.play()
 		life -= hitbox.damage
 		$DamageTimer.start()
 		$AnimatedSprite.modulate = Color(10,10,10)
 
 func _on_AnimatedSprite_animation_finished():
-	print($AnimatedSprite.animation)
 	if(status == 1):
 		status = 2
 		$AnimatedSprite.play("reborn")

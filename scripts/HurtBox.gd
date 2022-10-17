@@ -3,9 +3,6 @@ extends Area2D
 
 export var id = "generic"
 
-func _init():
-	pass
-
 func _ready():
 	connect("area_entered", self, "_hurtbox_area_entered")
 	

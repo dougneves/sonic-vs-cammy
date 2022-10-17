@@ -186,7 +186,7 @@ script = ExtResource( 2 )
 material = SubResource( 20 )
 frames = SubResource( 9 )
 animation = "idle"
-frame = 7
+frame = 2
 playing = true
 
 [node name="DamageTimer" type="Timer" parent="."]
